@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+    padding: 200px;
+}
+
+.parent{
+    background-color: white;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    /*flex is used to arrange the boxes in horizontal order  and the gap can use only when the flex is present*/
+    gap: 5px ;
+    flex-wrap: wrap;
+       /*justify-content is used to move the boxes from one end to another end*/
+    justify-content: flex-end;
+    /*center,space-between,space-around,space-evenly,flex-start,*/  
+}
+
+.child{
+    background-color: greenyellow;
+    width: 200px;
+    height: 200px;
+}
+

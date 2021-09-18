@@ -1,0 +1,18 @@
+button{
+    background-color: purple;
+    margin: 500px;
+    border: purple;
+    border-radius: 5px;
+    color: silver;
+    padding: 6px;
+}
+button:hover{
+    background-color: tomato;
+}
+button:focus{
+    background-color: teal;
+}
+/*we have to mention this word disable in html file also inside the tag of button*/
+button:disabled{
+    cursor: not-allowed;
+}

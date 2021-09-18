@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    padding: 200px;
+}
+
+.parent{
+    background-color: white;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    gap: 5px ;
+    flex-wrap: wrap;
+    align-items: center;
+    /*justify-content: center;is used to alaign the box at the center of the parent */
+    /* you can use this justify as ur wish if this is needed u can take or else u can del it */
+    justify-content: center;
+    /* (you can give these in between the alaign item)center, baseline,flex-end, */
+}
+
+.child{
+    background-color: greenyellow;
+    width: 200px;
+    height: 200px;
+}
+.child2{
+    background-color: red;
+    width: 200px;
+    height: 250px;
+}

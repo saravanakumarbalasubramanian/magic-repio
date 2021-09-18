@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    padding: 200px;
+}
+
+.parent{
+    background-color: white;
+    width: 100%;
+    height: 500px;
+    /*flex is used to arrange the boxes in horizontal order  and the gap can use only when the flex is present*/
+    display: flex;
+    gap: 5px ;
+    flex-wrap: wrap;
+    /*the wrap is use to crt the box in the givin (child)width and height and it arrange the box like pharagraph manner */
+}
+.child{
+    background-color: greenyellow;
+    width: 200px;
+    height: 200px;
+}

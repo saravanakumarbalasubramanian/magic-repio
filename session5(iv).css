@@ -1,0 +1,10 @@
+/* here type is a arrtibute and the value of arrtibute is present after the equal to */
+body{
+    background-color: firebrick;
+}
+input[type="text"]{
+    width: 100%;
+}
+input[type="password"]{
+    width: 50%;
+}
